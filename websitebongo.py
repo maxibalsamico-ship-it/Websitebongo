@@ -1,4 +1,5 @@
 from urllib import request
+import pickel
 print("")
 website = ()
 command = ()
@@ -21,6 +22,7 @@ while True :               #main loop wich is just asking fo an comman and can b
         x = request.urlopen(website)
         print(type(x))
         print(dir(x))
+        pickel.dump(x,dumpfile)
     else:
         help()
 
