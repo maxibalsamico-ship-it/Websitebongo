@@ -11,6 +11,14 @@ def help():
     print ("help (the standart command for seeing what commands are possible to use)")
     exit
 def dtf ():#downloadtofile
+    website = input()
+    print (website)
+    x = request.urlopen(website)
+    print(type(x))
+    print(dir(x))
+    data = x.read()  
+    with open("dumpfile.txt", "wb") as dumpfile:
+    pickle.dump(data, dumpfile)
     exit
   
 while True :               #main loop wich is just asking fo an comman and can be exitted vie ctrl c
@@ -18,12 +26,7 @@ while True :               #main loop wich is just asking fo an comman and can b
     if command == "--help" :
         help()
     elif command == "dtf":
-        website = input()
-        x = request.urlopen(website)
-        print(type(x))
-        print(dir(x))
-        data = x.read()  
-        with open("dumpfile.txt", "wb") as dumpfile:
-            pickle.dump(data, dumpfile)
+				dtf() 
     else:
+      print(command, "is not an accseptabele command")
         help()
