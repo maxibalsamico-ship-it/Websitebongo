@@ -1,31 +1,28 @@
-Projekttitel : Websitebongo
-ziel:
-	das scrapen von websiten durch das eingeben dessen url
-	und damit die absolute zerstörung der momentanen medienwelt
-eingabe/ausgabe: 
-	commando (dtf/owndtf)
-	url eingeben 
-geplante funktionen :
-	das weiter führende durch scannene der gescrapten websiten auf urls und dernen scraping
-	das recreieren der websiten locally
-	das integrieren in installations databases
-Module
-	loading bar /animation
-	instalations executable
-benutzeroberfläche:
-	textbasiert mit vieleicht animationen
+Projekttitel: Websitebongo
+Ziel:
+Das Scrapen von Websites durch Eingabe der jeweiligen URL, um die gegenwärtige Medienwelt umfassend zu zerstören.
+Eingabe/Ausgabe:
+	Kommando (dtf/owndtf)
+	URL eingeben
+Geplante Funktionen:
+	Weiterführendes Scannen der gescrapten Websites auf URLs und deren Scraping
+	Rekreation der Websites lokal
+	Integration in Installationsdatenbanken
+Module:
+	Ladebalken/Animation
+	Installations-Executable
+Benutzeroberfläche:
+	Textbasiert, möglicherweise mit Animationen.
 Aufgabenverteilung:
-	Felix: ideen sammelung design
-	Maxi: implimentation von funktionen
-
-
-was lief gut:
-	das aufsetzen der github umgebung
-was war schwierig:
-	nicht den pc zu hauen
-was habe ich neu gelernt
-	wie scheiße python wirklich ist
-was hat mir am meisten spaß gemacht
-	nix
-was hat ki dir geholfen
-	niergends!!!
+	Felix: Ideensammlung und Design
+	Maxi: Implementierung der Funktionen
+Was lief gut:
+	Das Einrichten der GitHub-Umgebung
+Was war schwierig:
+	Nicht den PC zu schlagen
+Was habe ich neu gelernt:
+	Wie Scheiße Python tatsächlich ist
+Was hat mir am meisten Spaß gemacht:
+	Nichts
+Wie hat mir KI geholfen:
+	Nirgends!
