@@ -80,7 +80,6 @@ def dtf ():
             pickle.dump(data, dumpfile)
         exit
 print(r"""
-             \@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@/
                -----------------------------------------------------------""")
 while True :               #main loop wich is just asking fo an comman and can be exitted vie ctrl c
     command = input()
